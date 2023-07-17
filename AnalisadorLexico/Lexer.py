@@ -3,6 +3,7 @@
 from typing import Type
 from Tag import tag
 from Word import create_token
+import sys
 
 line = 1
 peek = ' '
@@ -23,3 +24,14 @@ def Lexer():
     reserve(create_token("False", tag.FALSE))
     reserve(Type.Char)
     reserve(Type.Float)
+
+def readch():
+    global peek
+    peek = sys.stdin.read(1)
+
+def readch(c):
+    readch()
+    if peek != c:
+        return False
+    peek = ''
+    return True
