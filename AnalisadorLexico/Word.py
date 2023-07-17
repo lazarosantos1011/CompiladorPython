@@ -30,6 +30,7 @@ tags = {
 }
 
 # Exemplo de uso
+#retirar o exemplo na hora da implementação
 my_token = tags['REAL']
 print(my_token[LEXEME])  # Saída: "&&"
 print(my_token[TAG])  # Saída: 256
