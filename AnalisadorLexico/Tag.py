@@ -1,4 +1,4 @@
-Tags = {
+tags = {
     'AND': 256,
     'BASIC':257,
     'BREAK':258,
