@@ -1,4 +1,5 @@
 #type não ta utilizado corretamente, criar função depois.
+#Faltando outra parte
 from typing import Type
 from Tag import tag
 from Word import create_token
