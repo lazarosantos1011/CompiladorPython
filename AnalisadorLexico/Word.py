@@ -17,7 +17,8 @@ TRUE = create_token("True", 263)
 FALSE = create_token("False", 264)
 TEMP = create_token("t", 265)
 
-# Exemplo de uso
+# Exemplo de uso.
+#Lembrar de tirar essa parte na hora de implementar!
 my_token = AND
 print(my_token[LEXEME])  # Saída: "&&"
 print(my_token[TAG])  # Saída: 256
