@@ -6,7 +6,7 @@ from Word import create_token
 import sys
 
 line = 1
-peek = ' '
+peek = ''
 words = {}
 
 def reserve(w):
