@@ -107,5 +107,5 @@ def scan():
             return w
         else:
             w = Word(s, Tag.ID)
+            words[s] = w
             return w
-
